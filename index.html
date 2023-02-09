@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Damian Glejzer</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/7327f7b545.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+<div class="page-loader">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+
+
+<div class="bg-circles">
+    <div class="circle-1"></div>
+    <div class="circle-2"></div>
+    <div class="circle-3"></div>
+    <div class="circle-4"></div>
+
+</div>
+
+
+<div class="overlay">
+
+</div>
+
+
+
+
+        <div class="main hidden">
+
+            <header class="header">
+                <div class="container">
+                    <div class="row flex-end">
+                        <button type="button" class="nav-toggler">
+                            <span></span>
+                        </button>
+                        <nav class="nav">
+                            <div class="nav-inner">
+                                <ul>
+                                    <li><a href="#home" class="nav-item link-item">home</a></li>
+                                    <li><a href="#about" class="nav-item link-item">about</a></li>
+                                    <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+
+
+            <section class="home-section align-items-center " id="home">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="home-text">
+                            <p>Hello, I'm</p>
+                            <h1>Damian Glejzer</h1>
+                            <h2>full stack developer</h2>
+                            <a href="#about" class="btn link-item">more about me</a>
+                            <a href="#portfolio" class="btn link-item">portfolio</a>
+                        </div>
+                        <div class="home-img">
+                            <div class="img-box">
+                                <img class="profil"src="zdj1.JPG" alt="profil-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<section class="about-section sec-padding" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>about me</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-img">
+                <div class="img-box">
+                    <img class= "zdjecie"src="zdj2.png" alt="about img">
+                </div>
+            </div>
+            <div class="about-text">
+                <p>Hi, my name is Damian.
+                    For the first time I came across programming in highschool and immediately felt in love with it!
+                     Besides programming i like team sports and cooking. Italian pizza is my favourite!
+                     I enjoy reading books too and even sometimes it is hard for me to put them down.
+                     <br>
+                     
+                     
+                     
+                     
+                    
+                </p>
+                <h3>skills</h3>
+                <div class="skills">
+                    <div class="skill-item">python</div>
+                    <div class="skill-item">javascript/react</div>
+                    <div class="skill-item">Bootstrap</div>
+                    <div class="skill-item">html/css</div>
+                    <div class="skill-item">C</div>
+                    
+
+                <div class="about-tabs">
+                    <button type="button" class="tab-item active" data-target="#education">education</button>
+                    <button type="button" class="tab-item" data-target="#experience">experience</button>
+                    
+                </div>
+                <div class="tab-content active" id="education">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="date">2019-2022</span>
+                            <h4>26 liceum ogólnokształcące - <span>profil mat-fiz-inf</span></h4>
+                            <p> I really enjoyed time in highschool, where for the first time I came across programming. I lerned there basics of C++, but eventually I started learning new languages at home on my own!</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="date">2022-now</span>
+                            <h4>Politechnika Łódzka - IFE - <span>Computer Science</span></h4>
+                            <p> Currently, i'm computer science student. Is a great place to develop my programinng skills and meet people who share similar intrests to me.</p>
+                        </div>
+     
+                    </div>
+                </div>
+                <div class="tab-content" id="experience">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="date">Currently</span>
+                            <h4>Still looking for it! <span></span></h4>
+                            <p>I have no work experience but i'm very eager to find a job ond develop my experence!</p>
+                        </div>
+                      
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="portfolio-section sec-padding " id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>recent work</h2>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="weather-app-picture.png" alt="portfolio item thumb">
+                </div>
+                <h3 class="portfolio-item-title">React weather app</h3>
+                <button type="button" class="btn view-project-btn">view project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p> 
+                            In this React project, I built a weather application using the OpenWeatherMap API and GeoDB API. 
+                            There are probably many ways to build a weather app and this is on a more basic level, but a great way to learn a few core fundamentals in React like hooks and how to work with API.
+                            This project works only for big cities(mostly capitals). 
+                        </p> 
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Created - <span>10 October 2022</span></li>
+                            <li>technologies used - <span>React.js</span></li>
+                            <li>Role - <span>Frontend</span></li>
+                            <li>View Online - <span><a href='https://damianglejzer.github.io/react-weather-app/' target="_blank">https://damianglejzer.github.io/react-weather-app/</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+           
+            
+            
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="spaceinvaders.png" alt="portfolio item thumb">
+                </div>
+                <h3 class="portfolio-item-title">Python space invaders game</h3>
+                <button type="button" class="btn view-project-btn">view project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>With my friend we created space invaders game in python with pygame library. It was one of our college projects, and creating it was a lot of fun!
+                            We created some functions that allow user to pick particular difficulty level in a game, and choose controls between keyboard or mouse.
+                            
+                        
+                        </p> 
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Created - <span>30 January 2023</span></li>
+                            <li>technologies used - <span>Python</span></li>
+                            <li>Role - <span>Backend</span></li>
+                            <li>View Code - <span><a href='https://github.com/damianglejzer/Space-invaders-game' target="_blank">https://github.com/damianglejzer/Space-invaders-game</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="e-commerce shop.png" alt="portfolio item thumb">
+                </div>
+                <h3 class="portfolio-item-title">E-commers website</h3>
+                <button type="button" class="btn view-project-btn">view project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>In this project I created a simple e-commerce website that looks very similar to the ones that you can find online.
+                            Website has multiple pages like product preview, login/register page etc. Unfortunately, I haven't written any backend for it yet,
+                            so you can't register on it or buy anything, but I'm planning to use some python in the future to create a fully functioning e-commerce website.
+                            
+                        
+                        </p> 
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Created - <span>24 June 2022</span></li>
+                            <li>technologies used - <span>Html/Css, Javascript</span></li>
+                            <li>Role - <span>Frontend</span></li>
+                            <li>View Online - <span><a href='https://damianglejzer.github.io/e-commerce-website/' target="_blank">https://damianglejzer.github.io/e-commerce-website/</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="flaskapp.png" alt="portfolio item thumb">
+                </div>
+                <h3 class="portfolio-item-title">Python Flask app</h3>
+                <button type="button" class="btn view-project-btn">view project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>
+                            In this project I created a website with Python, covering Flask, authentication, databases, and more. 
+                            In this app you can create a new user's account, whose data will be stored in database(SQLAlchemy), log into user account, log out, and add and store your notes on your account. 
+                        
+                        </p> 
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Created - <span>19 November 2022</span></li>
+                            <li>technologies used - <span>Python, Flask, Javascript, Html, Bootstrap</span></li>
+                            <li>Role - <span>Frontend and Backend</span></li>
+                            <li>View Code - <span><a href='https://github.com/damianglejzer/Python-Flask-app' target="_blank">https://github.com/damianglejzer/Python-Flask-app</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    
+</section>
+        </div>
+
+<div class="portfolio-popup">
+    <div class="pp-inner">
+        <div class="pp-content">
+            <div class="pp-header">
+                <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+                <div class="pp-thumbnail">
+                    <img src="3.jpg" alt="pp-thumbnail">
+                </div>
+                <h3></h3>
+            </div>
+            <div class="pp-body">
+                <div class="description">
+                    <p>
+                    </p> 
+                </div>
+                <div class="general-info">
+                    <ul>
+                        <li>Created - <span></span></li>
+                        <li>technologies used - <span></span></li>
+                        <li>Role - <span></span></li>
+                        <li>View Online - <span><a href='#' target="_blank">www.domian.com</a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
